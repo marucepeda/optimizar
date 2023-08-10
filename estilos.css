@@ -7,7 +7,7 @@
 
 h1{
     font-weight: bold;
-    color: #6F81B0 ;
+    color: #35495e ;
     font-family: 'Times New Roman', Times, serif;
     padding: 15px;
     margin: 15px 15px 5px 5px;
@@ -64,11 +64,6 @@ body, h1, h2, h3, p, ul, li {
     border-bottom: 1px solid #ccc; /* Línea divisoria */
   }
   
-  .logo {
-    font-size: 24px;
-    color: #35495e; /* Azul grisáceo */
-  }
-  
   .nav {
     list-style: none;
     display: flex;
@@ -102,33 +97,3 @@ body, h1, h2, h3, p, ul, li {
     color: #666; /* Texto gris */
     line-height: 1.6;
   }
-  
-  .contact-form {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  .contact-form input[type="text"],
-  .contact-form input[type="email"],
-  .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-  }
-  
-  .contact-form button {
-    background-color: #007bff; /* Azul intenso */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  /* Media queries para dispositivos pequeños */
-  @media (max-width: 768px) {
-    .container {
-      padding: 10px;
-    }
-  }
-  
